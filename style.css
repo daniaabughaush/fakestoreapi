@@ -1,0 +1,178 @@
+html{
+    scroll-behavior: smooth;
+    }
+    h2{
+      font-family: cursive;
+    }
+     nav {
+      font-family: cursive;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: rgb(9 45 60);
+      color: white;
+      width: 100%;
+      border-radius: .3rem;
+       z-index: +1;
+      
+    }
+    
+    
+    .logo img{
+    
+        width: 4rem;
+    
+    }
+    
+    /* NAVBAR MENU */
+    
+    .menu {
+    
+        display: flex;
+    
+        gap: 1em;
+    
+        font-size: 1rem;
+       margin-right: 2rem;
+    }
+    
+    nav li:hover {
+    
+        background-color: #307c90;
+    
+        border-radius: .5rem;
+    
+        transition: .5s ease;
+    
+    }
+    
+    nav li {
+    
+        padding: .5rem .3rem;
+          list-style: none;
+        
+    }
+    .menu a{
+        color: white;
+        text-decoration: none;
+       
+    }
+    /* .all{
+      display: flex;
+      /* flex-direction: row; */
+      /* justify-content: space-around; */ 
+   
+    /* } */
+   
+
+  
+
+
+     .footerlist li{
+      display: inline-block;
+      padding:2rem
+      
+      }
+      
+      footer{
+        text-align: center;
+      }
+      .footerlist img{
+          width: 2rem;
+      }
+      .footerlist p{
+          font-size: large;
+          font-weight: bold;
+      }
+      .footerlist img{
+        width:2rem;
+        height: 2rem;
+      }
+      .cardfooter{
+        /* border: #307C90; */
+        border-radius: 0 ;
+        background-color: #307C90;
+        color:white
+      }
+      /* ----------------------------------------------------------------------------------------------------------------------------------- */
+      .footerlist  img:hover{
+        background-color:  #67f3da;
+        box-shadow: .2rem .2rem white;
+      }
+      .submit{
+        padding: .5rem;
+        background-color: #307C90;
+        color: beige; 
+        border: #307C90;      
+      }
+
+      #cardSt{
+        max-width: 15rem;
+        background-color: #307C90;
+        padding: 2rem;
+        margin: 1rem;
+        border: solid .4rem #65d5f5 ;
+        border-radius: 1rem;
+        font-family: cursive;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+     
+      }
+      
+      #cardSt li {
+        list-style: none;
+        color: beige;
+   
+        
+        
+      }
+      #cardSt img{
+        width: 10rem;
+      }
+      #cardSt ul{
+      padding: 0;
+      }
+#studentInfo{
+  display:flex;
+  flex-wrap: wrap;
+}
+     @media all and (max-width:800px){
+/* .all{
+  flex-direction: column;
+} */
+
+     }
+#storeCards{
+ display: flex;
+ flex-wrap: wrap;
+    
+}
+
+.cardImg{
+  width: 12rem;
+  height: 13rem;
+  border: solid  #65d5f5;
+  margin-left: 2rem;
+}
+
+.store{
+  max-width: 17rem;
+  background-color: #007fa1;
+  /* padding: 2rem;
+  margin: 1rem; */
+  border: solid .4rem #094252 ;
+  border-radius: 1rem;
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-height: 35rem;
+  font-size: .7rem;
+  text-align: center;
+  color: azure;
+  margin: 1rem;
+}
+h3{
+  max-height: 2rem;
+}
